@@ -1,5 +1,0 @@
-0 2 * * 0 tar -czf /tmp/backup_home.tar.gz /home/user && scp /tmp/backup_home.tar.gz user@192.168.1.100:/path/destinazione && rm /tmp/backup_home.tar.gz
-
-ssh-keygen -t rsa -b 4096
-ssh-copy-id user@192.168.1.100
-ssh user@192.168.1.100
